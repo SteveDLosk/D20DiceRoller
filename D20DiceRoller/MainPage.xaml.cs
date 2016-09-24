@@ -26,5 +26,14 @@ namespace D20DiceRoller
         {
             this.InitializeComponent();
         }
+
+        private void iconsListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (D20.IsSelected)
+                mainFrame.Navigate(typeof(d20));
+            else if (DiceBag.IsSelected)
+                mainFrame.Navigate(typeof(diceBag));
+
+        }
     }
 }

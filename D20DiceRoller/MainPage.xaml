@@ -16,10 +16,25 @@
             <ColumnDefinition Width="60"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <RelativePanel>
-            
-        </RelativePanel>
-        <Frame 
+        
+        <StackPanel>
+            <ListBox SelectionMode="Single" Name="iconsListBox" SelectionChanged="iconsListBox_SelectionChanged">
+                <ListBoxItem Name="D20" >
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Assets\d20_metal.png"/>
+                        <TextBlock FontSize="24" Margin="20,0,0,0" Text="Roll D20"/>
+                    </StackPanel>
+                </ListBoxItem>
+                <ListBoxItem Name="DiceBag" >
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Assets\d20_metal.png"/>
+                        <TextBlock FontSize="24" Margin="10,0,0,0" Text="Roll Dice" />
+                    </StackPanel>
+                </ListBoxItem>
+            </ListBox>
+        </StackPanel>
+        
+            <Frame 
             Name="mainFrame"
             Grid.Column="1"
             Grid.Row="1"/>
