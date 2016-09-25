@@ -6,6 +6,17 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    <Page.Resources>
+        <Style x:Key="NavButtonImage" TargetType="Image">
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="Height" Value="50" />
+        </Style>
+        <Style x:Key="NavButtonText" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="FontFamily" Value="Serif" />
+        </Style>
+               
+    </Page.Resources>
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
@@ -17,22 +28,28 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         
-        <StackPanel>
-            <ListBox SelectionMode="Single" Name="iconsListBox" SelectionChanged="iconsListBox_SelectionChanged">
+        
+            <ListBox SelectionMode="Single" Name="iconsListBox" 
+                     SelectionChanged="iconsListBox_SelectionChanged"
+                     Grid.Column="0" Grid.RowSpan="2">
                 <ListBoxItem Name="D20" >
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="Assets\d20_metal.png"/>
-                        <TextBlock FontSize="24" Margin="20,0,0,0" Text="Roll D20"/>
+                        <Image Style="{StaticResource NavButtonImage}" 
+                               Source="Assets\d20_metal.png"/>
+                        <TextBlock Style="{StaticResource NavButtonText}" 
+                                   Text="Roll D20"/>
                     </StackPanel>
                 </ListBoxItem>
                 <ListBoxItem Name="DiceBag" >
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="Assets\d20_metal.png"/>
-                        <TextBlock FontSize="24" Margin="10,0,0,0" Text="Roll Dice" />
+                        <Image Style="{StaticResource NavButtonImage}"
+                            Source="Assets\d20_metal.png"/>
+                        <TextBlock Style="{StaticResource NavButtonText}"
+                            Text="Roll Dice" />
                     </StackPanel>
                 </ListBoxItem>
             </ListBox>
-        </StackPanel>
+        
         
             <Frame 
             Name="mainFrame"
