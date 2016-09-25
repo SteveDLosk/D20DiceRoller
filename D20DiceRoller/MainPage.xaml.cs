@@ -35,5 +35,10 @@ namespace D20DiceRoller
                 mainFrame.Navigate(typeof(diceBag));
 
         }
+
+        private void HamburgerButton_Click(object sender, RoutedEventArgs e)
+        {
+            navSplitViewPanel.IsPaneOpen = !navSplitViewPanel.IsPaneOpen;
+        }
     }
 }
