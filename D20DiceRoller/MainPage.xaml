@@ -43,7 +43,7 @@
                 <ListBoxItem Name="DiceBag" >
                     <StackPanel Orientation="Horizontal">
                         <Image Style="{StaticResource NavButtonImage}"
-                            Source="Assets\d20_metal.png"/>
+                            Source="Assets\bag4.png"/>
                         <TextBlock Style="{StaticResource NavButtonText}"
                             Text="Roll Dice" />
                     </StackPanel>
