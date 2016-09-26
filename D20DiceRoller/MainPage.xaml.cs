@@ -33,6 +33,8 @@ namespace D20DiceRoller
                 mainFrame.Navigate(typeof(d20));
             else if (DiceBag.IsSelected)
                 mainFrame.Navigate(typeof(diceBag));
+            else if (Complex.IsSelected)
+                mainFrame.Navigate(typeof(Complex));
 
         }
 

@@ -41,7 +41,7 @@
                     Width="50" Height="50" 
                     Background="Transparent" />
 
-                <ListBox SelectionMode="Single" Name="iconsListBox" 
+                    <ListBox SelectionMode="Single" Name="iconsListBox" 
                      SelectionChanged="iconsListBox_SelectionChanged"
                      >
                         <ListBoxItem Name="D20" >
@@ -58,6 +58,14 @@
                             Source="Assets\bag4.png"/>
                                 <TextBlock Style="{StaticResource NavButtonText}"
                             Text="Dice Bag" />
+                            </StackPanel>
+                        </ListBoxItem>
+                        <ListBoxItem Name="Complex" >
+                            <StackPanel Orientation="Horizontal">
+                                <Image Style="{StaticResource NavButtonImage}" 
+                               Source="Assets\d20_metal.png"/>
+                                <TextBlock Style="{StaticResource NavButtonText}" 
+                                   Text="Complex Roll"/>
                             </StackPanel>
                         </ListBoxItem>
                     </ListBox>
