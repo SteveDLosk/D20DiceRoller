@@ -63,7 +63,7 @@
                         <ListBoxItem Name="Complex" >
                             <StackPanel Orientation="Horizontal">
                                 <Image Style="{StaticResource NavButtonImage}" 
-                               Source="Assets\d20_metal.png"/>
+                               Source="Assets\mathSigma.png"/>
                                 <TextBlock Style="{StaticResource NavButtonText}" 
                                    Text="Complex Roll"/>
                             </StackPanel>
