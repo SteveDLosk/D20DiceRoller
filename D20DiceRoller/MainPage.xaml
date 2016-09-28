@@ -68,6 +68,14 @@
                                    Text="Complex Roll"/>
                             </StackPanel>
                         </ListBoxItem>
+                        <ListBoxItem Name="Character" >
+                            <StackPanel Orientation="Horizontal">
+                                <Image Style="{StaticResource NavButtonImage}" 
+                               Source="Assets\mathSigma.png"/>
+                                <TextBlock Style="{StaticResource NavButtonText}" 
+                                   Text="Roll new character"/>
+                            </StackPanel>
+                        </ListBoxItem>
                     </ListBox>
                 </StackPanel>
             </SplitView.Pane>

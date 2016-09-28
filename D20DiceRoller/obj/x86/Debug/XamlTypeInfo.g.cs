@@ -132,21 +132,23 @@ namespace D20DiceRoller.D20DiceRoller_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[6];
-            _typeNameTable[0] = "D20DiceRoller.Complex";
+            _typeNameTable = new string[7];
+            _typeNameTable[0] = "D20DiceRoller.Character";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "D20DiceRoller.d20";
-            _typeNameTable[4] = "D20DiceRoller.diceBag";
-            _typeNameTable[5] = "D20DiceRoller.MainPage";
+            _typeNameTable[3] = "D20DiceRoller.Complex";
+            _typeNameTable[4] = "D20DiceRoller.d20";
+            _typeNameTable[5] = "D20DiceRoller.diceBag";
+            _typeNameTable[6] = "D20DiceRoller.MainPage";
 
-            _typeTable = new global::System.Type[6];
-            _typeTable[0] = typeof(global::D20DiceRoller.Complex);
+            _typeTable = new global::System.Type[7];
+            _typeTable[0] = typeof(global::D20DiceRoller.Character);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::D20DiceRoller.d20);
-            _typeTable[4] = typeof(global::D20DiceRoller.diceBag);
-            _typeTable[5] = typeof(global::D20DiceRoller.MainPage);
+            _typeTable[3] = typeof(global::D20DiceRoller.Complex);
+            _typeTable[4] = typeof(global::D20DiceRoller.d20);
+            _typeTable[5] = typeof(global::D20DiceRoller.diceBag);
+            _typeTable[6] = typeof(global::D20DiceRoller.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -181,10 +183,11 @@ namespace D20DiceRoller.D20DiceRoller_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_Complex() { return new global::D20DiceRoller.Complex(); }
-        private object Activate_3_d20() { return new global::D20DiceRoller.d20(); }
-        private object Activate_4_diceBag() { return new global::D20DiceRoller.diceBag(); }
-        private object Activate_5_MainPage() { return new global::D20DiceRoller.MainPage(); }
+        private object Activate_0_Character() { return new global::D20DiceRoller.Character(); }
+        private object Activate_3_Complex() { return new global::D20DiceRoller.Complex(); }
+        private object Activate_4_d20() { return new global::D20DiceRoller.d20(); }
+        private object Activate_5_diceBag() { return new global::D20DiceRoller.diceBag(); }
+        private object Activate_6_MainPage() { return new global::D20DiceRoller.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -196,9 +199,9 @@ namespace D20DiceRoller.D20DiceRoller_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  D20DiceRoller.Complex
+            case 0:   //  D20DiceRoller.Character
                 userType = new global::D20DiceRoller.D20DiceRoller_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_Complex;
+                userType.Activator = Activate_0_Character;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -211,23 +214,30 @@ namespace D20DiceRoller.D20DiceRoller_XamlTypeInfo
                 xamlType = new global::D20DiceRoller.D20DiceRoller_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  D20DiceRoller.d20
+            case 3:   //  D20DiceRoller.Complex
                 userType = new global::D20DiceRoller.D20DiceRoller_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_d20;
+                userType.Activator = Activate_3_Complex;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  D20DiceRoller.diceBag
+            case 4:   //  D20DiceRoller.d20
                 userType = new global::D20DiceRoller.D20DiceRoller_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_diceBag;
+                userType.Activator = Activate_4_d20;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  D20DiceRoller.MainPage
+            case 5:   //  D20DiceRoller.diceBag
                 userType = new global::D20DiceRoller.D20DiceRoller_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_MainPage;
+                userType.Activator = Activate_5_diceBag;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  D20DiceRoller.MainPage
+                userType = new global::D20DiceRoller.D20DiceRoller_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
