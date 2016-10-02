@@ -8,16 +8,18 @@
     mc:Ignorable="d">
     <Page.Resources>
         <Style x:Key="NavButtonImage" TargetType="Image">
-            <Setter Property="Width" Value="50"/>
-            <Setter Property="Height" Value="50" />
+            <Setter Property="Width" Value="40"/>
+            <Setter Property="Height" Value="40" />
             <Setter Property="Margin" Value="0" />
-            
+            <Setter Property="Stretch" Value="Uniform" />
+            <Setter Property="HorizontalAlignment" Value="Left" />
+
         </Style>
         <Style x:Key="NavButtonText" TargetType="TextBlock">
             <Setter Property="FontSize" Value="24" />
             <Setter Property="VerticalAlignment" Value="Center" />
             <Setter Property="FontFamily" Value="Serif" />
-            <Setter Property="Margin" Value="8,0,0,0" />
+            <Setter Property="Margin" Value="10,0,0,0" />
         </Style>
                
     </Page.Resources>
@@ -27,7 +29,7 @@
             <SplitView Grid.Column="0" Grid.Row="1"
                    x:Name="navSplitViewPanel"
                    IsPaneOpen="False"
-                   CompactPaneLength="60"
+                   CompactPaneLength="55"
                    OpenPaneLength="240"
                    DisplayMode="CompactOverlay">
                 <SplitView.Pane>
@@ -36,9 +38,11 @@
                     Click="HamburgerButton_Click" 
                     HorizontalAlignment="Left"
                     VerticalAlignment="Stretch"
-                    FontFamily="Segoe MDL2 Assets" 
+                    FontFamily="Segoe MDL2 Assets"
+                    FontSize="24"
+                    FontWeight="Bold"
                     Content="&#xE700;"
-                    Width="50" Height="50" 
+                    Width="55" Height="50" 
                     Background="Transparent" />
 
                     <ListBox SelectionMode="Single" Name="iconsListBox" 
