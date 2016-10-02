@@ -120,7 +120,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\bag4.png" />
+    <Content Include="Assets\DicePics\d100.jpg" />
+    <Content Include="Assets\DicePics\d12.jpg" />
+    <Content Include="Assets\DicePics\d20P.jpg" />
     <Content Include="Assets\d20_metal.png" />
+    <Content Include="Assets\DicePics\coin.jpg" />
+    <Content Include="Assets\DicePics\d10.jpg" />
+    <Content Include="Assets\DicePics\d4.jpg" />
+    <Content Include="Assets\DicePics\d6.jpg" />
+    <Content Include="Assets\DicePics\d8.jpg" />
     <Content Include="Assets\Man.png" />
     <Content Include="Assets\mathSigma.png" />
     <Content Include="Properties\Default.rd.xml" />
@@ -158,6 +166,7 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
