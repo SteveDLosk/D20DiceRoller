@@ -133,6 +133,10 @@
     <Content Include="Assets\DicePics\d8.jpg" />
     <Content Include="Assets\Man.png" />
     <Content Include="Assets\mathSigma.png" />
+    <Content Include="Assets\Sound\Bad\OhNo.wav" />
+    <Content Include="Assets\Sound\Bad\OhNo2.wav" />
+    <Content Include="Assets\Sound\Bad\OhNo3.wav" />
+    <Content Include="Assets\Sound\Bad\ThatsBad.wav" />
     <Content Include="Assets\Sound\Book\100\100book1.m4a" />
     <Content Include="Assets\Sound\Book\100\100book2.m4a" />
     <Content Include="Assets\Sound\Book\100\100book3.m4a" />
@@ -166,6 +170,10 @@
     <Content Include="Assets\Sound\Book\8\8book3.m4a" />
     <Content Include="Assets\Sound\Book\8\8book4.m4a" />
     <Content Include="Assets\Sound\Box\beep.mp3" />
+    <Content Include="Assets\Sound\Good\Woo.flac" />
+    <Content Include="Assets\Sound\Good\Woo2.wav" />
+    <Content Include="Assets\Sound\Good\WooHoo.mp3" />
+    <Content Include="Assets\Sound\Good\Yes.wav" />
     <Content Include="Assets\Sound\TableTop\100\100table1.m4a" />
     <Content Include="Assets\Sound\TableTop\100\100table2.m4a" />
     <Content Include="Assets\Sound\TableTop\100\100table3.m4a" />
