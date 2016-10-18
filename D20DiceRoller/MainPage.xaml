@@ -77,7 +77,7 @@
                                 <Image Style="{StaticResource NavButtonImage}" 
                                Source="Assets\Man.png"/>
                                 <TextBlock Style="{StaticResource NavButtonText}" 
-                                   Text="Roll Character"/>
+                                   Text="Character Stats"/>
                             </StackPanel>
                         </ListBoxItem>
                     </ListBox>
