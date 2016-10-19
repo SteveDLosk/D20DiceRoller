@@ -80,6 +80,14 @@
                                    Text="Character Stats"/>
                             </StackPanel>
                         </ListBoxItem>
+                        <ListBoxItem Name="Settings" >
+                            <StackPanel Orientation="Horizontal">
+                                <Image Style="{StaticResource NavButtonImage}" 
+                               Source="Assets\Gear.png"/>
+                                <TextBlock Style="{StaticResource NavButtonText}" 
+                                   Text="Settings"/>
+                            </StackPanel>
+                        </ListBoxItem>
                     </ListBox>
                 </StackPanel>
             </SplitView.Pane>

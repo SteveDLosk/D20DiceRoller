@@ -37,6 +37,8 @@ namespace D20DiceRoller
                 mainFrame.Navigate(typeof(Complex));
             else if (Character.IsSelected)
                 mainFrame.Navigate(typeof(Character));
+            else if (Settings.IsSelected)
+                mainFrame.Navigate(typeof(Settings));
         }
 
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
