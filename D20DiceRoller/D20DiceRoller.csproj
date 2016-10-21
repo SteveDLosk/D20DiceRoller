@@ -135,6 +135,12 @@
     <Content Include="Assets\DicePics\d6.jpg" />
     <Content Include="Assets\DicePics\d8.jpg" />
     <Content Include="Assets\gear.png" />
+    <Content Include="Assets\Images\Fantasy\1.jpg" />
+    <Content Include="Assets\Images\Fantasy\2.jpg" />
+    <Content Include="Assets\Images\Fantasy\3.jpg" />
+    <Content Include="Assets\Images\Fantasy\4.jpg" />
+    <Content Include="Assets\Images\Fantasy\5.jpg" />
+    <Content Include="Assets\Images\Fantasy\chr.jpg" />
     <Content Include="Assets\Man.png" />
     <Content Include="Assets\mathSigma.png" />
     <Content Include="Assets\Sound\Bad\OhNo.wav" />
