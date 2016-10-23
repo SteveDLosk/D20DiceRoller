@@ -116,6 +116,9 @@
     <Compile Include="Settings.xaml.cs">
       <DependentUpon>Settings.xaml</DependentUpon>
     </Compile>
+    <Compile Include="StartPage.xaml.cs">
+      <DependentUpon>StartPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -166,6 +169,7 @@
     <Content Include="Assets\Images\Space\chr.jpg" />
     <Content Include="Assets\Images\Space\fantasy-1725403.jpg" />
     <Content Include="Assets\Images\Space\light-saber-1542459_1280.jpg" />
+    <Content Include="Assets\Images\Splash.png" />
     <Content Include="Assets\Images\Steam\0.jpg" />
     <Content Include="Assets\Images\Steam\1.jpg" />
     <Content Include="Assets\Images\Steam\2.jpg" />
@@ -250,6 +254,14 @@
     <Content Include="Assets\Sound\TableTop\8\8table2.m4a" />
     <Content Include="Assets\Sound\TableTop\8\8table3.m4a" />
     <Content Include="Assets\Sound\TableTop\8\8table4.m4a" />
+    <Content Include="Assets\Sound\TableTop\Character\Multi1.m4a" />
+    <Content Include="Assets\Sound\TableTop\Character\Multi2.m4a" />
+    <Content Include="Assets\Sound\TableTop\Character\Multi3.m4a" />
+    <Content Include="Assets\Sound\TableTop\Character\Multi4.m4a" />
+    <Content Include="Assets\Sound\TableTop\Lots\All1.m4a" />
+    <Content Include="Assets\Sound\TableTop\Lots\All2.m4a" />
+    <Content Include="Assets\Sound\TableTop\Lots\All3.m4a" />
+    <Content Include="Assets\Sound\TableTop\Lots\All4.m4a" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -285,6 +297,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Settings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StartPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

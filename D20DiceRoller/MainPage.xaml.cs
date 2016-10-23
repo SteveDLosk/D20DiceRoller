@@ -22,9 +22,11 @@ namespace D20DiceRoller
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
         public MainPage()
         {
             this.InitializeComponent();
+            mainFrame.Navigate(typeof(StartPage));
         }
 
         private void iconsListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
