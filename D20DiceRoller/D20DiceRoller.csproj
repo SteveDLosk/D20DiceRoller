@@ -97,6 +97,7 @@
     </Compile>
     <Compile Include="Assets\Data\Sound.cs" />
     <Compile Include="Assets\Data\SoundManager.cs" />
+    <Compile Include="Assets\Data\ThemeManager.cs" />
     <Compile Include="Character.xaml.cs">
       <DependentUpon>Character.xaml</DependentUpon>
     </Compile>
