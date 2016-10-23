@@ -32,8 +32,8 @@ namespace D20DiceRoller
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
-            ThemeManager themeManager = new Assets.Data.ThemeManager();
-            themeManager.CurrentTheme = Theme.Fantasy;
+            
+            ThemeManager.CurrentTheme = Theme.Fantasy;
         }
 
         /// <summary>
