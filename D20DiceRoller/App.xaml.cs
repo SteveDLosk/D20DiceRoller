@@ -1,4 +1,5 @@
-﻿using System;
+﻿using D20DiceRoller.Assets.Data;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -15,6 +16,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
+
 namespace D20DiceRoller
 {
     /// <summary>
@@ -30,6 +32,8 @@ namespace D20DiceRoller
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            ThemeManager themeManager = new Assets.Data.ThemeManager();
+            themeManager.CurrentTheme = Theme.Fantasy;
         }
 
         /// <summary>
