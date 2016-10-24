@@ -104,6 +104,9 @@
     <Compile Include="Complex.xaml.cs">
       <DependentUpon>Complex.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ComplexHelp.xaml.cs">
+      <DependentUpon>ComplexHelp.xaml</DependentUpon>
+    </Compile>
     <Compile Include="d20.xaml.cs">
       <DependentUpon>d20.xaml</DependentUpon>
     </Compile>
@@ -282,6 +285,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Complex.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ComplexHelp.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
