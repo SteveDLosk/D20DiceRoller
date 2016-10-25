@@ -33,7 +33,10 @@ namespace D20DiceRoller
             this.InitializeComponent();
             this.Suspending += OnSuspending;
             
-            ThemeManager.CurrentTheme = Theme.Cyber;
+            ThemeManager.CurrentTheme = Theme.Fantasy;
+            
+
+
         }
 
         /// <summary>
