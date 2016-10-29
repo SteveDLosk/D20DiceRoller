@@ -131,6 +131,7 @@
     <None Include="D20DiceRoller_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\BadgeLogo.scale-200.png" />
     <Content Include="Assets\bag4.png" />
     <Content Include="Assets\DicePics\d100.jpg" />
     <Content Include="Assets\DicePics\d12.jpg" />
@@ -157,6 +158,7 @@
     <Content Include="Assets\Images\Fantasy\4.jpg" />
     <Content Include="Assets\Images\Fantasy\5.jpg" />
     <Content Include="Assets\Images\Fantasy\chr.jpg" />
+    <Content Include="Assets\Images\Icons\ProImg284.png" />
     <Content Include="Assets\Images\MainImage.jpeg" />
     <Content Include="Assets\Images\PostApocolyptic\0.jpg" />
     <Content Include="Assets\Images\PostApocolyptic\1.jpg" />
@@ -175,6 +177,7 @@
     <Content Include="Assets\Images\Space\fantasy-1725403.jpg" />
     <Content Include="Assets\Images\Space\light-saber-1542459_1280.jpg" />
     <Content Include="Assets\Images\Splash.png" />
+    <Content Include="Assets\Images\SplashScreen.scale-200.png" />
     <Content Include="Assets\Images\Steam\0.jpg" />
     <Content Include="Assets\Images\Steam\1.jpg" />
     <Content Include="Assets\Images\Steam\2.jpg" />
@@ -267,9 +270,14 @@
     <Content Include="Assets\Sound\TableTop\Lots\All2.m4a" />
     <Content Include="Assets\Sound\TableTop\Lots\All3.m4a" />
     <Content Include="Assets\Sound\TableTop\Lots\All4.m4a" />
+    <Content Include="Assets\SplashScreen.scale-2002.png" />
+    <Content Include="Assets\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\Square71x71Logo.scale-200.png" />
+    <Content Include="Assets\Square71x71Logo.scale-400.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
-    <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
